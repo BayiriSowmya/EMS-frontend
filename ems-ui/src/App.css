@@ -1,0 +1,45 @@
+/* Ensure the page takes full height */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  
+  
+}
+
+/* Make the app container use flexbox */
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full height */
+  
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Adjust this value for more or less spacing */
+}
+
+table {
+  width: 90%;
+  margin: 20px auto; 
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+th, td {
+  border: 1px solid black; 
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2; 
+}
+
+.table th, .table td {
+  border: 1px solid black;
+}
+
+
